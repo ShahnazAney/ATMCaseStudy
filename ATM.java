@@ -30,7 +30,7 @@ public class ATM {
         while(true) {
             while(!userAuthenticated) {
                 screen.displayMsg("\nWelcome");
-                authenticateUser();
+                authenticateUser(); 
             }
 
             performTransactions();
